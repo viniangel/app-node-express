@@ -1,0 +1,12 @@
+###Solicitar los productos
+GET http://127.0.0.1:3009/api/productos
+
+###Guardar producto
+POST http://127.0.0.1:3009/api/productos
+Content-Type: application/json
+
+{
+    "nombre": "Computadora asus",
+    "precio": 299.99,
+    "stock": 3
+}
